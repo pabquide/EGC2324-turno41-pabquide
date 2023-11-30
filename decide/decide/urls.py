@@ -25,6 +25,7 @@ urlpatterns = [
     path('admin/', admin.site.urls),
     "hola"
     path('doc/', schema_view),
+    "cambios 2"
     path('gateway/', include('gateway.urls')),
 ]
 
