@@ -27,6 +27,7 @@ urlpatterns = [
     path('doc/', schema_view),
     "cambios 2"
     path('gateway/', include('gateway.urls')),
+    "cambios 3"
 ]
 
 for module in settings.MODULES:
